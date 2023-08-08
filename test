@@ -7,7 +7,6 @@
         playerpos[0]-=5
     elif keys[3]:
         playerpos[0]+=5
-
     #10 - Win/Lose check
     if pygame.time.get_ticks()>=90000:
         running=0
