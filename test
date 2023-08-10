@@ -15,6 +15,7 @@
     if healthvalue<=0:
         running=0
         exitcode=0
+
     if acc[1]!=0:
         accuracy=acc[0]*1.0/acc[1]*100
     else:
